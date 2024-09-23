@@ -20,20 +20,20 @@ vector<string> Agent :: findSPath(string from, string to){
 
     dist[from] = 0;
     pq.push(Node(from,0));
-
+    
     while(!pq.empty()){
 
         Node current = pq.top();
-        
+        float finalDist = current.dist;
         pq.pop();
 
         if(visited[current.name]) continue; 
         visited[current.name] = true;
-
+         
         // test goal state
         if(current.name == to){
-            cout<< " Shortest Distance From " << from << " to "
-            << to <<" = "<< pq.top().dist<< endl ; 
+            cout<< " \n Shortest Distance From " << from << " to "
+            << to <<" = "<< finalDist << endl ; 
              
             return regenPath(prev, from, to);
         }  
@@ -52,10 +52,10 @@ vector<string> Agent :: findSPath(string from, string to){
                 prev[neighbour] = current.name;
             }
         }
-      
+        
     }
     
-        
+     pq.empty();   
     return {}; // incase a path is not found
     
 }
