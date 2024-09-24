@@ -53,7 +53,7 @@ Once compiled, you can execute the program to simulate agent-based route plannin
 ## Map used
 (https://github.com/ThryLox/routePlanning/blob/main/output.png)
 
-Desclaimer : This graph was generated using ChatGPT
+Disclaimer : This graph was generated using ChatGPT
 
 ## Contributing
 
