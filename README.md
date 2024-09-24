@@ -51,8 +51,8 @@ compile_agent_windows.bat
 
 Once compiled, you can execute the program to simulate agent-based route planning through a graph. Ensure that all necessary input data (nodes, edges, etc.) is correctly defined.
 
-[!IMPORTANT]  
-New maps and, Cities and Distances can be added by editing the main.cpp file after the cloning has been done to the local machine and recompiled to run the agent
+> [!TIP]  
+> New maps and, Cities and Distances can be added by editing the main.cpp file after the cloning has been done to the local machine and recompiled to run the agent
 
 ## Map used
 (https://github.com/ThryLox/routePlanning/blob/main/output.png)
