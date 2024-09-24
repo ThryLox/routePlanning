@@ -50,6 +50,10 @@ compile_agent_windows.bat
 ## Usage
 
 Once compiled, you can execute the program to simulate agent-based route planning through a graph. Ensure that all necessary input data (nodes, edges, etc.) is correctly defined.
+## Map used
+(https://github.com/ThryLox/routePlanning/blob/main/output.png)
+
+Desclaimer : This graph was generated using ChatGPT
 
 ## Contributing
 
