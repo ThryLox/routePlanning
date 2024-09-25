@@ -45,7 +45,9 @@ int main(int argc, char const *argv[])
     // 3 required use cases
     // result() acts as a helper function to evaluate shortest path between given cities
     result(agent, "Thunder Bay","Vancouver");
+    cout << "\n" << endl;
     result(agent, "Thunder Bay","Winnipeg");
+    cout << "\n" << endl;
     result(agent, "Winnipeg","Billings");
     
 

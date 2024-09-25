@@ -32,7 +32,7 @@ vector<string> Agent :: findSPath(string from, string to){
          
         // test goal state
         if(current.name == to){
-            cout<< " \n Shortest Distance From " << from << " to "
+            cout<< " \n\n\n Shortest Distance From " << from << " to "
             << to <<" = "<< finalDist << endl ; 
              
             return regenPath(prev, from, to);
